@@ -37,7 +37,7 @@ public class Project_patrick_jeffers
       monitor = keyboard.nextInt();
       
       //Create multiplier for later calculation.
-      double multiplier;
+      double multiplier
       String resolution;
       if (monitor == 4)
       {
