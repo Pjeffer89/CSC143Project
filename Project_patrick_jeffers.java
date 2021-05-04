@@ -32,9 +32,10 @@ public class Project_patrick_jeffers
       //Heading
       System.out.println("");
       System.out.println("");
-      System.out.println(heading);
+      displayTitle();
       System.out.println("");
       System.out.println("");
+      
       
       //For
       while (numberOfComputers > 0)
@@ -150,4 +151,8 @@ public class Project_patrick_jeffers
       numberOfComputers--;
       }     
    }
+   public static void displayTitle()
+      { 
+         System.out.println("Computer Hardware Graphics Quality Recommendation Tool");
+      }
 }
